@@ -1,0 +1,7 @@
+export {default as GlobalClose} from "../assets/icon-close.svg"
+export {default as GlobalFacebook} from "../assets/icon-facebook.svg"
+export {default as GlobalHamburger} from "../assets/icon-hamburger.svg"
+export {default as GlobalInstagram} from "../assets/icon-instagram.svg"
+export {default as GlobalPinterest} from "../assets/icon-pinterest.svg"
+export {default as GlobalTwitter} from "../assets/icon-twitter.svg"
+export {default as GlobalLogo} from "../assets/logo.svg"
