@@ -1,3 +1,24 @@
-.hero-section_container{
+.hero-section_container {
   border: 1px solid;
+}
+
+.hero-section_image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .hero-section_image {
+    background: url("../../assets/mobile/image-hero.jpg");
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
+  .hero-section_image {
+    background: url("../../assets/desktop/image-hero.jpg");
+  }
 }

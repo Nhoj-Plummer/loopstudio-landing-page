@@ -5,8 +5,10 @@ import {Navbar} from "../../components/componentsindex"
 const HeroSection = () => {
   return (
     <div className="hero-section_container">
-      <Navbar />
-      HeroSection
+      <div className="hero-section_image">
+        <Navbar />
+        HeroSection
+      </div>
     </div>
   )
 }
