@@ -5,4 +5,28 @@
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid white;
+}
+
+/* .navbar-mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+} */
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .navbar-desktop-container {
+    display: none;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
+  .navbar-mobile-container {
+    display: none;
+  }
 }
