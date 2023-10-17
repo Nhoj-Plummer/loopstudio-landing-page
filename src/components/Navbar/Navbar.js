@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import "./Navbar.css"
-import {GlobalLogo, GlobalHamburger} from "../../assets/indexglobal"
+import {GlobalLogo, GlobalClose, GlobalHamburger} from "../../assets/indexglobal"
 
 const Menu = () => (
   <>
@@ -8,13 +8,16 @@ const Menu = () => (
       <a href="#about">About</a>
     </p>
     <p>
-      <a href="#services">Services</a>
+      <a href="#careers">Careers</a>
     </p>
     <p>
-      <a href="#project">Project</a>
+      <a href="#events">Events</a>
     </p>
     <p>
-      <a href="#contact">CONTACT</a>
+      <a href="#products">Products</a>
+    </p>
+    <p>
+      <a href="#support">Support</a>
     </p>
   </>
 )
@@ -31,8 +34,10 @@ const Navbar = () => {
       <div className="navbar-desktop-container"></div>
 
       <div className="navbar-mobile-container">
-        <div className="navbar-mobile-toggle">{toggleMenu ? <img src={GlobalHamburger} alt="off" onClick={() => setToggleMenu(false)} /> : <img src={GlobalHamburger} alt="on" onClick={() => setToggleMenu(true)} />}</div>
-        <div className="navbar-mobile-menu"></div>
+        <div className="navbar-mobile-toggle">{toggleMenu ? <img src={GlobalHamburger} alt="off" onClick={() => setToggleMenu(false)} /> : <img src={GlobalClose} alt="on" onClick={() => setToggleMenu(true)} />}</div>
+        <div className="navbar-mobile-menu">
+          <Menu />
+        </div>
       </div>
     </div>
   )
