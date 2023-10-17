@@ -34,11 +34,6 @@
   background: var(--color-black);
 }
 
-.active {
-  animation: slide-in-right;
-  animation-duration: 0.4s;
-}
-
 
 
 .navbar-mobile-menu p {
@@ -50,29 +45,6 @@
   color: var(--color-white);
 }
 
-/*  Animations Start */
-@keyframes slide-in-right {
-  0% {
-    transform: translateX(1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-/* @keyframes slide-out-right {
-  0% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(1000px);
-    opacity: 0;
-  }
-} */
-/*  Animations Ends */
 
 /* Conditional Section */
 /* Mobile Rules */
