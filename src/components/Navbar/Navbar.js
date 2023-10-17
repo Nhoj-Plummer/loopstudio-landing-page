@@ -35,9 +35,11 @@ const Navbar = () => {
 
       <div className="navbar-mobile-container">
         <div className="navbar-mobile-toggle">{toggleMenu ? <img src={GlobalHamburger} alt="off" onClick={() => setToggleMenu(false)} /> : <img src={GlobalClose} alt="on" onClick={() => setToggleMenu(true)} />}</div>
-        <div className="navbar-mobile-menu">
-          <Menu />
-        </div>
+        {!toggleMenu && (
+          <div className="navbar-mobile-menu">
+            <Menu />
+          </div>
+        )}
       </div>
     </div>
   )
