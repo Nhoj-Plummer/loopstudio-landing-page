@@ -7,7 +7,9 @@ const HeroSection = () => {
     <div className="hero-section_container">
       <div className="hero-section_image">
         <Navbar />
-        HeroSection
+        <div className="hero-section_text">
+          <h1>IMMERSIVE EXPERIENCES THAT DELIVER </h1>
+        </div>
       </div>
     </div>
   )

@@ -1,3 +1,4 @@
+/* General Rules */
 .navbar-container {
   display: flex;
   padding: 20px;
@@ -12,6 +13,11 @@
   color: var(--color-white);
 }
 
+.navbar-image-container {
+  z-index: 1000;
+}
+
+/* Desktop Rules */
 .navbar-desktop-container {
   display: flex;
   margin-left: auto;
@@ -31,15 +37,6 @@
   padding-bottom: 8px; /* this can also control the position */
 }
 
-.navbar-mobile-toggle {
-  position: relative;
-  z-index: 999;
-}
-
-.navbar-image-container {
-  z-index: 1000;
-}
-
 /* Navbar Mobile RUles */
 .navbar-mobile-menu {
   display: flex;
@@ -55,6 +52,11 @@
   right: 0%;
   text-transform: uppercase;
   background: var(--color-black);
+}
+
+.navbar-mobile-toggle {
+  position: relative;
+  z-index: 999;
 }
 
 .navbar-mobile-menu p {
