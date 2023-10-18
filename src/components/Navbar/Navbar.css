@@ -7,6 +7,30 @@
   border: 1px solid white;
 }
 
+.navbar-container p a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.navbar-desktop-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.navbar-desktop-container p {
+  margin-left: 4rem;
+}
+
+.navbar-desktop-container p a:hover {
+  background-image: linear-gradient(white, white);
+  background-position: bottom center; /*Adjust the background-position to move the line*/
+  background-size: 40% 2px; /*Adjust the background size to control length and height*/
+  background-repeat: no-repeat;
+  padding-bottom: 8px; /* this can also control the position */
+}
+
 .navbar-mobile-toggle {
   position: relative;
   z-index: 999;
@@ -30,21 +54,12 @@
   top: 0%;
   right: 0%;
   text-transform: uppercase;
-
   background: var(--color-black);
 }
-
-
 
 .navbar-mobile-menu p {
   margin-bottom: 1.5rem;
 }
-
-.navbar-mobile-menu p a {
-  text-decoration: none;
-  color: var(--color-white);
-}
-
 
 /* Conditional Section */
 /* Mobile Rules */

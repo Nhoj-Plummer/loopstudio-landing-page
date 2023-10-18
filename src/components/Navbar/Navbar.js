@@ -31,7 +31,9 @@ const Navbar = () => {
         <img src={GlobalLogo} alt="logo" />
       </div>
 
-      <div className="navbar-desktop-container"></div>
+      <div className="navbar-desktop-container">
+        <Menu />
+      </div>
 
       <div className="navbar-mobile-container">
         <div className="navbar-mobile-toggle">{toggleMenu ? <img src={GlobalHamburger} alt="off" onClick={() => setToggleMenu(false)} /> : <img src={GlobalClose} className="Active" alt="on" onClick={() => setToggleMenu(true)} />}</div>
