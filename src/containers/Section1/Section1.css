@@ -1,10 +1,11 @@
 .section1-container {
   margin-top: 4rem;
-  border: 1px solid;
+
 }
 
 .section1-container_image {
-  border: 1px solid;
+
+  width: fit-content;
 }
 
 .section1-container_image img {
@@ -13,20 +14,20 @@
 
 .section1-container_text {
   background: var(--color-white);
-  border: 1px solid;
+
 }
 
 .section1-container_text h1 {
   font-family: var(--font-family-2);
   font-weight: 300;
-  border: 1px solid;
+
 }
 
 .section1-container_text p {
-  border: 1px solid;
+
   font-family: var(--font-family-1);
   color: var(--color-dark-gray);
-  font-size: 15px;
+  line-height: 1.5rem;
 }
 
 /* Conditional Section */
@@ -47,12 +48,36 @@
   }
 
   .section1-container_text p {
-    line-height: 1.5rem;
     width: 90%;
     margin: 2rem auto;
+    font-size: 15px;
   }
 }
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  .section1-container {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .section1-container_text {
+    
+    width: 35%;
+    padding: 85px;
+    position: relative;
+    right: 175px;
+    top: 140px;
+  }
+
+  .section1-container_text h1 {
+    font-size: 55px;
+  }
+
+  .section1-container_text p {
+    margin-top: 1.5rem;
+  }
 }
