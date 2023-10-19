@@ -1,4 +1,5 @@
 .section1-container {
+  margin-top: 4rem;
   border: 1px solid;
 }
 
@@ -20,8 +21,35 @@
 .section1-container_text h1 {
   font-family: var(--font-family-2);
   font-weight: 300;
+  border: 1px solid;
 }
 
-.section1-container_text p{
+.section1-container_text p {
+  border: 1px solid;
   font-family: var(--font-family-1);
+  color: var(--color-dark-gray);
+  font-size: 15px;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .section1-container {
+    padding: 20px;
+  }
+
+  .section1-container_text {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .section1-container_text p {
+    line-height: 1.5rem;
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
 }
