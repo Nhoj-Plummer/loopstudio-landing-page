@@ -9,8 +9,6 @@
 
 .section1-container_image img {
   display: block;
-  height: 100%;
-  width: 100%;
 }
 
 .section1-container_text {
@@ -36,6 +34,11 @@
 @media screen and (max-width: 540px) {
   .section1-container {
     padding: 20px;
+  }
+
+  .section1-container_image img {
+    height: 100%;
+    width: 100%;
   }
 
   .section1-container_text {
