@@ -30,9 +30,11 @@ function useWindowDimensions() {
 const Section2 = () => {
   const {width} = useWindowDimensions()
 
+  const graphicStyle1 = {height: "600px", background: "url('')"}
+
   return (
     <div className="section2-container">
-      <Creation />
+      <Creation imageStyle={graphicStyle1} />
     </div>
   )
 }

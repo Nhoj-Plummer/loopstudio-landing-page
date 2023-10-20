@@ -1,10 +1,10 @@
 import React from "react"
 import "./Creation.css"
 
-const Creation = ({image}) => {
+const Creation = ({imageStyle}) => {
   return (
     <div className="creation-container">
-      <div className="creation-image">
+      <div className="creation-image" style={imageStyle}>
         <div className="creation-text"></div>
       </div>
     </div>
