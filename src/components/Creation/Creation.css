@@ -1,12 +1,9 @@
+  /* The hiehgt and withs will be done with the text div these were to find the images being responsive */
+
 .creation-container {
   border: 1px solid red;
 }
 
-/* .creation-image img {
-  display: block;
-  height: 100%;
-  width: 100%;
-} */
 
 .creation-image {
   border: 1px solid;
