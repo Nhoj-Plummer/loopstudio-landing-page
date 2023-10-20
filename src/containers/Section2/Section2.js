@@ -32,7 +32,7 @@ const Section2 = () => {
 
   const image = "https://media.geeksforgeeks.org/wp-content/uploads/rk.png"
 
-  const graphicStyle1 = {backgroundImage: `url(${image})`}
+  const graphicStyle1 = {backgroundImage: `url(${MobileRoad})`}
 
   return (
     <div className="section2-container">

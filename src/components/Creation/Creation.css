@@ -10,8 +10,19 @@
 
 .creation-image {
   width: 100%;
-  height: 300px;
   background-repeat: no-repeat;
   /* background-image: url("../../assets/desktop/image-deep-earth.jpg"); */
   background-position: center;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .creation-image {
+    height: 240px;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
 }
