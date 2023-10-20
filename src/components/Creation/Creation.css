@@ -1,6 +1,6 @@
 .creation-container {
   border: 1px solid;
-  height: 200px;
+
 }
 
 /* .creation-image img {
@@ -10,7 +10,8 @@
 } */
 
 .creation-image {
+  height: 200px;
   background-repeat: no-repeat;
-  background-image: url("../../assets/desktop/image-interactive.jpg");
+  background-image: url("../../assets/desktop/image-fisheye.jpg");
   background-position: center;
 }
