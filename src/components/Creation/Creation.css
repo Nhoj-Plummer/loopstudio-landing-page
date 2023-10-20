@@ -10,5 +10,7 @@
 } */
 
 .creation-image {
-  
+  background-repeat: no-repeat;
+  background-image: url("../../assets/desktop/image-interactive.jpg");
+  background-position: center;
 }

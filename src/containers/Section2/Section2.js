@@ -30,11 +30,9 @@ function useWindowDimensions() {
 const Section2 = () => {
   const {width} = useWindowDimensions()
 
-  const graphicStyle1 = {backgroundImage: width > 540 ? {DesktopRoad} : {MobileRoad}}
-
   return (
     <div className="section2-container">
-      <Creation imageStyle={graphicStyle1} />
+      <Creation />
     </div>
   )
 }
