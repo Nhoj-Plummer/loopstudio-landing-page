@@ -1,5 +1,4 @@
 .section2-container {
-
 }
 
 .section2-container h1 {
@@ -9,4 +8,24 @@
 
 .section2-container h1 button {
   font-family: var(--font-family-1);
+}
+
+.section2-container-button {
+  border: 1px solid;
+  width: fit-content;
+  margin: auto;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .section2-container {
+  }
+
+  .section2-container h1 {
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
 }

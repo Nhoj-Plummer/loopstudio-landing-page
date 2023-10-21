@@ -38,7 +38,7 @@ const Section2 = () => {
     <div className="section2-container">
       <h1>OUR CREATION</h1>
       <Creation imageStyle={graphicStyle1} text={"DEEP EARTH"} />
-      <div className="section2-container_mobile-button">
+      <div className="section2-container-button">
         <button>
           <h2>SEE ALL</h2>
         </button>
