@@ -36,9 +36,17 @@ const Section2 = () => {
 
   return (
     <div className="section2-container">
-      <h1>OUR CREATION</h1>
+      <div className="section2-container_text">
+        <h1>OUR CREATION</h1>
+        <div className="section2-container-button desktop">
+          <button>
+            <h2>SEE ALL</h2>
+          </button>
+        </div>
+      </div>
+
       <Creation imageStyle={graphicStyle1} text={"DEEP EARTH"} />
-      <div className="section2-container-button">
+      <div className="section2-container-button mobile">
         <button>
           <h2>SEE ALL</h2>
         </button>

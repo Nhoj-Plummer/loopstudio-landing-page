@@ -1,9 +1,17 @@
 .section2-container {
 }
 
+.section2-container_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
 .section2-container h1 {
   font-family: var(--font-family-2);
   font-weight: 300;
+  border: 1px solid;
 }
 
 .section2-container h1 button {
@@ -13,7 +21,6 @@
 .section2-container-button {
   border: 1px solid;
   width: fit-content;
-  margin: auto;
 }
 
 /* Conditional Section */
@@ -24,8 +31,25 @@
 
   .section2-container h1 {
   }
+
+  /* Desktop Button visibility */
+  .desktop {
+    display: none;
+  }
+
+  .section2-container-button {
+    margin: auto;
+  }
 }
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  .section2-container h1 {
+    font-size: 3rem;
+  }
+
+  /* Mobile Button visibility */
+  .mobile {
+    display: none;
+  }
 }
