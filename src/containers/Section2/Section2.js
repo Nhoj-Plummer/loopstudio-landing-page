@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react"
 import "./Section2.css"
 import {Creation} from "../../components/componentsindex"
-import {DesktopRoad} from "../../assets/desktop/indexdesktop"
-import {MobileRoad} from "../../assets/mobile/indexmobile"
+import {DesktopEarth} from "../../assets/desktop/indexdesktop"
+import {MobileEarth} from "../../assets/mobile/indexmobile"
 
 function getWindowDimensions() {
   const {innerWidth: width, innerHeight: height} = window
@@ -32,11 +32,17 @@ const Section2 = () => {
 
   const image = "https://media.geeksforgeeks.org/wp-content/uploads/rk.png"
 
-  const graphicStyle1 = {backgroundImage: width > 540 ? `url(${DesktopRoad})` : `url(${MobileRoad})`}
+  const graphicStyle1 = {backgroundImage: width > 540 ? `url(${DesktopEarth})` : `url(${MobileEarth})`}
 
   return (
     <div className="section2-container">
-      <Creation imageStyle={graphicStyle1} />
+      <h1>OUR CREATION</h1>
+      <Creation imageStyle={graphicStyle1} text={"DEEP EARTH"} />
+      <div className="section2-container_mobile-button">
+        <button>
+          <h2>SEE ALL</h2>
+        </button>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,12 @@
+.section2-container {
+
+}
+
+.section2-container h1 {
+  font-family: var(--font-family-2);
+  font-weight: 300;
+}
+
+.section2-container h1 button {
+  font-family: var(--font-family-1);
+}

@@ -1,14 +1,20 @@
-  /* The hiehgt and withs will be done with the text div these were to find the images being responsive */
+/* The hiehgt and withs will be done with the text div these were to find the images being responsive */
 
 .creation-container {
   border: 1px solid red;
 }
 
-
 .creation-image {
   border: 1px solid;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.creation-text {
+  font-family: var(--font-family-2);
+  font-weight: 300;
+  color: var(--color-white);
+  border: 1px solid white;
 }
 
 /* Conditional Section */
