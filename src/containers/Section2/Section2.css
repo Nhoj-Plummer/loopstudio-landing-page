@@ -62,12 +62,17 @@
     padding: 20px;
   }
 
-  .section2-container h1 {
+  .section2-container_text h1 {
     font-size: 3rem;
   }
 
   .section2-container-creations {
-    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 55%;
+    margin: auto;
+
     border: 1px blue;
   }
 
