@@ -5,13 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .section2-container h1 {
   font-family: var(--font-family-2);
   font-weight: 300;
-  
 }
 
 .section2-container h2 {
@@ -23,8 +21,7 @@
   width: 175px;
   height: 40px;
   background: var(--color-white);
-  letter-spacing: .25rem;
-  
+  letter-spacing: 0.25rem;
 }
 
 .section2-container-button {
@@ -34,15 +31,11 @@
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
-  .section2-container {
-    
-  }
-
   .section2-container h1 {
     margin: auto;
   }
 
-  .section2-container-creations{
+  .section2-container-creations {
     border: 1px solid;
     margin-top: 1rem;
     padding: 0px 15px 0px 15px;
@@ -54,7 +47,7 @@
   }
 
   .section2-container-button {
-    margin: auto;
+    margin: 1rem auto;
   }
 }
 

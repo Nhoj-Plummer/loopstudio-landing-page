@@ -39,6 +39,10 @@ const Section2 = () => {
   const graphicStyle7 = {backgroundImage: width > 540 ? `url(${DesktopRover})` : `url(${MobileRover})`}
   const graphicStyle8 = {backgroundImage: width > 540 ? `url(${DesktopFishEye})` : `url(${MobileFishEye})`}
 
+
+  // Specific Component Styling
+  const textStyle1Car = {width: "41%"}
+
   return (
     <div className="section2-container">
       <div className="section2-container_text">
@@ -52,13 +56,12 @@ const Section2 = () => {
       <div className="section2-container-creations">
         <Creation imageStyle={graphicStyle1} text={"DEEP EARTH"} />
         <Creation imageStyle={graphicStyle2} text={"NIGHT ARCADE"} />
-        <Creation imageStyle={graphicStyle3} text={"DEEP EARTH"} />
-        <Creation imageStyle={graphicStyle4} text={"DEEP EARTH"} />
-        <Creation imageStyle={graphicStyle5} text={"DEEP EARTH"} />
-        <Creation imageStyle={graphicStyle6} text={"DEEP EARTH"} />
-        <Creation imageStyle={graphicStyle7} text={"DEEP EARTH"} />
-        <Creation imageStyle={graphicStyle8} text={"DEEP EARTH"} />
-
+        <Creation imageStyle={graphicStyle3} text={"SOCCER TEAM VR"} />
+        <Creation imageStyle={graphicStyle4} text={`THE GRID`} textStyle={textStyle1Car} />
+        <Creation imageStyle={graphicStyle5} text={"FROM UP ABOVE VR"} />
+        <Creation imageStyle={graphicStyle6} text={"POCKET BOREALIS"} />
+        <Creation imageStyle={graphicStyle7} text={"THE CURIOSITY"} />
+        <Creation imageStyle={graphicStyle8} text={"MAKE IT FISHEYE"} />
       </div>
 
       <div className="section2-container-button mobile">
