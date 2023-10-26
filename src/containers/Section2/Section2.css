@@ -1,9 +1,7 @@
-
 .section2-container_text {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid;
 }
 
 .section2-container h1 {
@@ -41,7 +39,6 @@
   }
 
   .section2-container-creations {
-    border: 1px solid;
     margin-top: 1rem;
     padding: 0px 15px 0px 15px;
   }
@@ -58,10 +55,6 @@
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
-  .section2-container {
-    border: 1px solid;
-  }
-
   .section2-container_text {
     padding: 20px;
   }
@@ -76,8 +69,7 @@
     gap: 20px;
     width: 55%;
     margin: auto;
-
-    border: 1px blue;
+    margin-top: 5rem;
   }
 
   /* Mobile Button visibility */
