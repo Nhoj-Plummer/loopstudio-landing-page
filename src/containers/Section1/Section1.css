@@ -1,10 +1,8 @@
 .section1-container {
   margin-top: 4rem;
-
 }
 
 .section1-container_image {
-
   width: fit-content;
 }
 
@@ -14,17 +12,14 @@
 
 .section1-container_text {
   background: var(--color-white);
-
 }
 
 .section1-container_text h1 {
   font-family: var(--font-family-2);
   font-weight: 300;
-
 }
 
 .section1-container_text p {
-
   font-family: var(--font-family-1);
   color: var(--color-dark-gray);
   line-height: 1.5rem;
@@ -63,9 +58,7 @@
     align-items: center;
   }
 
-
   .section1-container_text {
-    
     width: 35%;
     padding: 85px;
     position: relative;
