@@ -1,7 +1,9 @@
-/* The hiehgt and withs will be done with the text div these were to find the images being responsive */
-
 .creation-container {
   border: 1px solid red;
+}
+
+.creation-card-overlay {
+  text-shadow: 2px 2px 19px #000000, 2px 2px 19px #000000, 2px 2px 19px #000000, 2px 2px 19px #000000;
 }
 
 .creation-image {
@@ -17,8 +19,6 @@
   margin-top: 3rem;
   margin-left: 1rem;
   width: 50%;
-  
-  /* border: 1px solid blue; */
 }
 
 /* Conditional Section */
