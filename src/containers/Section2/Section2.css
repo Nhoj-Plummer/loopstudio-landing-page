@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 1px solid;
 }
 
 .section2-container h1 {
@@ -53,8 +54,21 @@
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  .section2-container {
+    border: 1px solid;
+  }
+
+  .section2-container_text {
+    padding: 20px;
+  }
+
   .section2-container h1 {
     font-size: 3rem;
+  }
+
+  .section2-container-creations {
+    width: 300px;
+    border: 1px blue;
   }
 
   /* Mobile Button visibility */

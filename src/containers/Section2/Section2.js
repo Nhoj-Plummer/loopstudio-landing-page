@@ -39,9 +39,8 @@ const Section2 = () => {
   const graphicStyle7 = {backgroundImage: width > 540 ? `url(${DesktopRover})` : `url(${MobileRover})`}
   const graphicStyle8 = {backgroundImage: width > 540 ? `url(${DesktopFishEye})` : `url(${MobileFishEye})`}
 
-
   // Specific Component Styling
-  const textStyle1Car = {width: "41%"}
+  const textStyle1Car = {width: width > 540 ? "" : "41%"}
 
   return (
     <div className="section2-container">
