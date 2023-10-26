@@ -5,24 +5,36 @@
 }
 
 .creation-image {
-  border: 1px solid;
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: 100%;
+  border: 1px solid green;
 }
 
 .creation-text {
   font-family: var(--font-family-2);
   font-weight: 300;
   color: var(--color-white);
-  border: 1px solid white;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  width: 50%;
+  
+  /* border: 1px solid blue; */
 }
 
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
-  .creation-image {
-    height: 240px;
-    width: 100%;
+  .creation-container {
+   
+  }
+
+  .creation-image{
+    height: 125px;
+  }
+
+  .creation-text {
+    
+    
   }
 }
 

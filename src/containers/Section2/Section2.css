@@ -5,21 +5,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid;
+  
 }
 
 .section2-container h1 {
   font-family: var(--font-family-2);
   font-weight: 300;
-  border: 1px solid;
+  
 }
 
-.section2-container h1 button {
+.section2-container h2 {
   font-family: var(--font-family-1);
+  font-weight: 300;
+}
+
+.section2-container-button button {
+  width: 175px;
+  height: 40px;
+  background: var(--color-white);
+  letter-spacing: .25rem;
+  
 }
 
 .section2-container-button {
-  border: 1px solid;
   width: fit-content;
 }
 
@@ -27,9 +35,17 @@
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
   .section2-container {
+    
   }
 
   .section2-container h1 {
+    margin: auto;
+  }
+
+  .section2-container-creations{
+    border: 1px solid;
+    margin-top: 1rem;
+    padding: 0px 15px 0px 15px;
   }
 
   /* Desktop Button visibility */
