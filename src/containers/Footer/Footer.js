@@ -59,9 +59,11 @@ const Footer = () => {
           <Socials />
         </div>
 
-        <span>
-          <p>© 2021 Loopstudios. All rights reserved.</p>
-        </span>
+        <div className="footer-container-copyright">
+          <span>
+            <p>© 2021 Loopstudios. All rights reserved.</p>
+          </span>
+        </div>
       </div>
     </div>
   )
