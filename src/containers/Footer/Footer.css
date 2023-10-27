@@ -1,14 +1,42 @@
 .footer-container {
+  margin-top: 3rem;
   background-color: var(--color-black);
 }
 
 .footer-container_images {
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.footer-container-socials {
+  display: flex;
+  gap: 15px;
+  width: fit-content;
+  border: 1px solid blue;
+}
+
+.footer-container-socials img {
+  border: 1px solid red;
 }
 
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
+  .footer-container_images img {
+    margin: auto;
+  }
+
+  .footer-container-socials {
+    margin: auto;
+  }
+
+  .footer-container-socials img {
+    margin: auto;
+  }
+
   /* Desktop Socials visibility */
   .desktop {
     display: none;
@@ -17,6 +45,10 @@
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  .footer-container-socials img {
+    
+  }
+
   /* Mobile Socials visibility */
   .mobile {
     display: none;
