@@ -25,10 +25,18 @@ const Menu = () => (
 const Socials = () => (
   <>
     {" "}
-    <img src={GlobalFacebook} alt="facebook" />
-    <img src={GlobalTwitter} alt="twitter" />
-    <img src={GlobalPinterest} alt="pinterest" />
-    <img src={GlobalInstagram} alt="instagram" />
+    <span>
+      <img src={GlobalFacebook} alt="facebook" />
+    </span>
+    <span>
+      <img src={GlobalTwitter} alt="twitter" />
+    </span>
+    <span>
+      <img src={GlobalPinterest} alt="pinterest" />
+    </span>
+    <span>
+      <img src={GlobalInstagram} alt="instagram" />
+    </span>
   </>
 )
 
@@ -50,6 +58,10 @@ const Footer = () => {
         <div className="footer-container-socials mobile">
           <Socials />
         </div>
+
+        <span>
+          <p>© 2021 Loopstudios. All rights reserved.</p>
+        </span>
       </div>
     </div>
   )
