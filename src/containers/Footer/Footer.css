@@ -1,0 +1,24 @@
+.footer-container {
+  background-color: var(--color-black);
+}
+
+.footer-container_images {
+  
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  /* Desktop Socials visibility */
+  .desktop {
+    display: none;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
+  /* Mobile Socials visibility */
+  .mobile {
+    display: none;
+  }
+}

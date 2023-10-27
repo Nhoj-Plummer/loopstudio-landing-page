@@ -9,7 +9,7 @@
   background: white;
   inset: 0;
   z-index: -1;
-  opacity: 0.6;
+  opacity: var(--bg-image-opacity);
 }
 
 .creation-container:hover .creation-text {
@@ -19,6 +19,7 @@
 
 /* The position relative and isolation is needed for the pseudo element to make it cover the image without doing it to the text */
 .creation-image {
+  --bg-image-opacity: 0.6;
   background-repeat: no-repeat;
   position: relative;
   isolation: isolate;
