@@ -8,12 +8,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  cursor: pointer;
 }
 
 .footer-container_images img {
   display: block;
+  cursor: pointer;
 }
+
 
 .footer-container-socials span:hover {
   background-image: linear-gradient(white, white);
