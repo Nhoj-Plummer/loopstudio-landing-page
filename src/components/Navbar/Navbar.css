@@ -27,6 +27,7 @@
   margin-left: 4rem;
 }
 
+/* Underline of nav itme on hover */
 .navbar-desktop-container p a:hover {
   background-image: linear-gradient(white, white);
   background-position: bottom center; /*Adjust the background-position to move the line*/

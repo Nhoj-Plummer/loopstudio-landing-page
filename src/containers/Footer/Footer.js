@@ -22,26 +22,33 @@ const Menu = () => (
   </>
 )
 
+const Socials = () => (
+  <>
+    {" "}
+    <img src={GlobalFacebook} alt="facebook" />
+    <img src={GlobalTwitter} alt="twitter" />
+    <img src={GlobalPinterest} alt="pinterest" />
+    <img src={GlobalInstagram} alt="instagram" />
+  </>
+)
+
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-container_images">
         <img src={GlobalLogo} alt="logo" />
         <div className="footer-container-socials desktop">
-          <img src={GlobalFacebook} alt="" />
-          <img src={GlobalTwitter} alt="" />
-          <img src={GlobalPinterest} alt="" />
-          <img src={GlobalInstagram} alt="" />
+          <Socials />
         </div>
       </div>
 
       <div className="footer-container-text">
-        <Menu />
+        <div className="footer-container-menu">
+          <Menu />
+        </div>
+
         <div className="footer-container-socials mobile">
-          <img src={GlobalFacebook} alt="" />
-          <img src={GlobalTwitter} alt="" />
-          <img src={GlobalPinterest} alt="" />
-          <img src={GlobalInstagram} alt="" />
+          <Socials />
         </div>
       </div>
     </div>
